@@ -1,8 +1,10 @@
 package net.bdog.bdogmod;
 
 import com.mojang.logging.LogUtils;
+import net.bdog.bdogmod.block.ModBlocks;
 import net.bdog.bdogmod.item.ModCreativeModeTabs;
 import net.bdog.bdogmod.item.ModItems;
+import net.bdog.bdogmod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,6 +34,10 @@ public class BdogMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

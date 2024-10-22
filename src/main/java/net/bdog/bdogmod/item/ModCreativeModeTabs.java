@@ -1,6 +1,7 @@
 package net.bdog.bdogmod.item;
 
 import net.bdog.bdogmod.BdogMod;
+import net.bdog.bdogmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,7 @@ public class ModCreativeModeTabs
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.FLAWED_HAMADIUM.get());
                         output.accept(ModItems.POLISHED_HAMADIUM.get());
+                        output.accept(ModBlocks.STEEL_BLOCK.get());
                     })
                     .build());
 

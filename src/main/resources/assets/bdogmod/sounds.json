@@ -1,0 +1,26 @@
+{
+  "steel_block_place": {
+    "subtitle": "sounds.bdogmod.steel_block_place",
+    "sounds": [
+      "bdogmod:steel_block_place"
+    ]
+  },
+  "steel_block_break": {
+    "subtitle": "sounds.bdogmod.steel_block_break",
+    "sounds": [
+      "bdogmod:steel_block_break"
+    ]
+  },
+  "steel_block_hit": {
+    "subtitle": "sounds.bdogmod.steel_block_hit",
+    "sounds": [
+      "bdogmod:steel_block_hit"
+    ]
+  },
+  "steel_block_walk": {
+    "subtitle": "sounds.bdogmod.steel_block_walk",
+    "sounds": [
+      "bdogmod:steel_block_walk"
+    ]
+  }
+}
